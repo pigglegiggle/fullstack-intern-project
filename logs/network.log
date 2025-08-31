@@ -1,0 +1,10 @@
+<190>Aug 20 13:01:02 r1 if=ge-0/0/1 event=link-down mac=aa:bb:cc:dd:ee:ff reason=carrier-loss
+<190>Aug 20 13:10:12 r1 if=ge-0/0/3 event=link-up mac=aa:bb:cc:dd:ee:02 reason=speed-negotiated
+<190>Aug 20 13:15:33 r1 if=ge-0/0/4 event=link-down mac=aa:bb:cc:dd:ee:03 reason=remote-fault
+<190>Aug 20 13:20:55 r1 if=ge-0/0/5 event=link-down mac=aa:bb:cc:dd:ee:04 reason=administratively-down
+<190>Aug 20 13:25:47 r1 if=ge-0/0/6 event=link-up mac=aa:bb:cc:dd:ee:05 reason=duplex-mismatch
+<190>Aug 20 13:30:29 r1 if=xe-0/1/0 event=link-down mac=aa:bb:cc:dd:ee:06 reason=carrier-loss
+<190>Aug 20 13:35:16 r1 if=xe-0/1/1 event=link-down mac=aa:bb:cc:dd:ee:07 reason=remote-fault
+<190>Aug 20 13:40:52 r1 if=xe-0/1/2 event=link-up mac=aa:bb:cc:dd:ee:08 reason=autonegotiation-success
+<190>Aug 20 13:45:31 r1 if=ge-0/0/7 event=link-down mac=aa:bb:cc:dd:ee:09 reason=loop-detected
+<190>Aug 20 13:50:10 r1 if=ge-0/0/8 event=link-down mac=aa:bb:cc:dd:ee:0a reason=cable-unplugged

@@ -1,0 +1,10 @@
+<134>Aug 20 12:44:56 fw01 vendor=demo product=ngfw action=deny src=10.0.1.10 dst=8.8.8.8 spt=5353 dpt=53 proto=udp msg=DNS blocked policy=Block-DNS
+<134>Aug 21 09:45:12 fw01 vendor=demo product=ngfw action=deny src=192.168.1.20 dst=8.8.4.4 spt=54567 dpt=80 proto=tcp msg=HTTP blocked policy=Web-Filter
+<134>Aug 21 16:03:58 fw01 vendor=demo product=ngfw action=deny src=10.0.3.25 dst=8.8.8.8 spt=12345 dpt=443 proto=tcp msg=SSL blocked policy=Block-SSL
+<134>Aug 22 07:22:41 fw01 vendor=demo product=ngfw action=deny src=172.16.5.10 dst=8.8.8.8 spt=56789 dpt=25 proto=tcp msg=SMTP blocked policy=Block-Mail
+<134>Aug 22 18:55:09 fw01 vendor=demo product=ngfw action=deny src=10.10.10.11 dst=8.8.4.4 spt=3456 dpt=21 proto=tcp msg=FTP connection denied policy=Block-FTP
+<134>Aug 23 02:11:23 fw01 vendor=demo product=ngfw action=deny src=192.168.2.30 dst=1.0.0.1 spt=33445 dpt=22 proto=tcp msg=SSH access denied policy=Block-SSH
+<134>Aug 23 11:40:55 fw01 vendor=demo product=ngfw action=deny src=10.1.1.15 dst=9.9.9.9 spt=55321 dpt=161 proto=udp msg=SNMP blocked policy=Block-SNMP
+<134>Aug 24 08:19:47 fw01 vendor=demo product=ngfw action=deny src=172.20.1.50 dst=8.8.8.8 spt=60001 dpt=443 proto=tcp msg=TLS handshake denied policy=Block-SSL
+<134>Aug 24 15:05:19 fw01 vendor=demo product=ngfw action=deny src=192.168.100.12 dst=8.8.4.4 spt=1234 dpt=110 proto=tcp msg=POP3 blocked policy=Block-Mail
+<134>Aug 25 21:33:02 fw01 vendor=demo product=ngfw action=deny src=10.5.5.25 dst=208.67.222.222 spt=4321 dpt=53 proto=udp msg=DNS query blocked policy=Block-DNS
